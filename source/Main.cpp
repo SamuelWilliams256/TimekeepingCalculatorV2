@@ -39,7 +39,6 @@ int main()
     {
         std::cerr << "Exception thrown: " << e.what() << "\n";
         std::cerr << "The program will now terminate.\n";
-        system("pause");
         return 1;
     }
 }
