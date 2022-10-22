@@ -6,7 +6,7 @@
 bool userWantsToContinue()
 {
     std::cout << "Would you like to continue? (y/n): ";
-    
+
     std::string usersResponse;
     std::getline(std::cin, usersResponse);
     while (usersResponse != "y" && usersResponse != "n")

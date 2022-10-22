@@ -1,7 +1,5 @@
 #include "Time.h"
 
-#include <regex>
-
 Time::Time() :
     _hours(-1),
     _minutes(-1)
