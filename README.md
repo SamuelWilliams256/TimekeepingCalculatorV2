@@ -15,4 +15,4 @@ The format of `Chargecodes.txt` is expected to be:
 
 Navigate to the build directory and run CMake in it to generate a make file or solution of the desired type. Then use the makefile/solution to build the executable.
 
-e.g.) `cd build; cmake .; make`
+e.g.) `cd build; cmake ../source; make`
